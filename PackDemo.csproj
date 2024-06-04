@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="X.txt" Pack="true" PackagePath="//a/b/c.txt" />
+  </ItemGroup>
+
+</Project>
